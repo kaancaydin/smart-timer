@@ -1,7 +1,9 @@
 # smart-timer
 Custom countdown timer with sound and keyboard control.
 
-# ⏱️ Countdown Timer
+[Live Demo](https://kaancaydin.github.io/smart-timer/)
+
+# ⏱️ Smart Timer
 
 A simple and customizable countdown timer built with HTML, CSS, and JavaScript.
 
