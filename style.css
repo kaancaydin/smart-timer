@@ -5,14 +5,12 @@ body{
 
 }
 
-
-
 .container{
     margin: 0 auto;
     max-width: 400px;
     text-align: center;
     padding: 20px;
-    justify-content: center; /* yatay ortala */
+    justify-content: center; 
     align-items: center; 
 }
 
@@ -103,12 +101,18 @@ button:hover{
 
 @media (max-width: 600px) {
   .input-wrapper {
-    flex-direction: column;
+    flex-direction: row; /* Yan yana kalsın */
+    justify-content: center; /* Ortala */
+    gap: 10px; /* Aralarına boşluk */
+    flex-wrap: wrap; /* Çok dar ekranda alt satıra geçebilir */
   }
-  
+
   input {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 10px;
+    flex: 1 1 80px; /* Esnek, minimum 80px genişlik */
+    max-width: 100px; /* Çok geniş olmasın */
+    margin-bottom: 0; /* Alt boşluk kaldır */
+  }
+  #timer {
+    font-size: 28px;
   }
 }
