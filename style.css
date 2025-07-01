@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+    font-family: "Orbitron", sans-serif;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: darkgrey;
+}
+
+#info{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.timer{
+    font-size: 72px;
+    color: rgb(70, 12, 60);
+    margin-top: 45px ;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: #888;
+    font-weight: bold;
+}
+
+input{
+    font-family: "Orbitron", sans-serif;
+    outline: none;
+    width: 80px;
+    height: 90px;
+    border: 1px solid;
+    margin-top: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0px 0px 10px rgba(52, 152, 219, 0.6);
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+button{
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+button:hover{
+    transform: scale(1.2);
+    opacity: .7;
+}
+
+.start{
+    background-color: green;
+}
+
+.stop{
+    background-color: red;
+}
+
+.reset{
+    background-color: gray;
+}
+
