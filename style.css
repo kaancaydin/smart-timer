@@ -97,3 +97,14 @@ button:hover{
     background-color: gray;
 }
 
+@media (max-width: 600px) {
+  .input-wrapper {
+    flex-direction: column;
+  }
+  
+  input {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+}
