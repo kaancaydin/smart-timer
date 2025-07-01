@@ -16,6 +16,8 @@ html, body {
     max-width: 400px;
     text-align: center;
     padding: 20px;
+    justify-content: center; /* yatay ortala */
+    align-items: center; 
 }
 
 h1{
