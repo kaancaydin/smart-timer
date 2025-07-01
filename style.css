@@ -5,6 +5,10 @@ body{
 
 }
 
+html, body {
+  overscroll-behavior: contain; /* veya 'none' */
+}
+
 .container{
     margin: 0 auto;
     max-width: 400px;
