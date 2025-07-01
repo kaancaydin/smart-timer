@@ -5,11 +5,7 @@ body{
 
 }
 
-html, body {
-  overscroll-behavior: contain;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: auto; /* veya touch, deneyerek karar ver */
-}
+
 
 .container{
     margin: 0 auto;
