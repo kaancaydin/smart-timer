@@ -10,8 +10,6 @@ body{
     max-width: 400px;
     text-align: center;
     padding: 20px;
-    justify-content: center; 
-    align-items: center; 
 }
 
 h1{
@@ -99,20 +97,3 @@ button:hover{
     background-color: gray;
 }
 
-@media (max-width: 600px) {
-  .input-wrapper {
-    flex-direction: row; /* Yan yana kalsın */
-    justify-content: center; /* Ortala */
-    gap: 10px; /* Aralarına boşluk */
-    flex-wrap: wrap; /* Çok dar ekranda alt satıra geçebilir */
-  }
-
-  input {
-    flex: 1 1 80px; /* Esnek, minimum 80px genişlik */
-    max-width: 100px; /* Çok geniş olmasın */
-    margin-bottom: 0; /* Alt boşluk kaldır */
-  }
-  #timer {
-    font-size: 28px;
-  }
-}
