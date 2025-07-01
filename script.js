@@ -1,9 +1,16 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const inputs = document.querySelectorAll('input[type="number"]');
+  inputs.forEach(input => {
+    input.addEventListener('input', () => {
+      input.value = input.value.replace(/[^0-9]/g, '');
+    });
+  });
+});
+
 const stopEl = document.querySelector(".stop")
 const startEl = document.querySelector(".start")
 const resetEl = document.querySelector(".reset")
 const timerEl = document.getElementById("timer")
-
-
 const infoEl = document.getElementById("info")
 
 let interval;
@@ -105,7 +112,6 @@ function resetTimer(){
     timerStarted = false;
 
 }
-
 
 startEl.addEventListener("click",startTimer);
 stopEl.addEventListener("click",stopTimer);
