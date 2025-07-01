@@ -6,7 +6,9 @@ body{
 }
 
 html, body {
-  overscroll-behavior: contain; /* veya 'none' */
+  overscroll-behavior: contain;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: auto; /* veya touch, deneyerek karar ver */
 }
 
 .container{
